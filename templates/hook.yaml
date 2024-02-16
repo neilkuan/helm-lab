@@ -53,6 +53,9 @@ spec:
           volumeMounts:
           - mountPath: /etc/nginx/
             name: nginx-config
+          env:
+            - name: SLEEP_TIME
+              value: {{ .Values.SLEEP_TIME }}
           command:
             - bash
             - "-c"
@@ -61,4 +64,4 @@ spec:
                 echo 1.....
                 cat /etc/nginx/nginx.conf
                 
-                for i in {1..61}; do echo $i; sleep 1; done
+                for i in {1..$SLEEP_TIME}; do echo $i; sleep 1; done
