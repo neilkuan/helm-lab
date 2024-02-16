@@ -3,7 +3,17 @@ entries:
   helm-lab:
   - apiVersion: v2
     appVersion: 0.0.0
-    created: "2024-02-16T09:04:15.938134+08:00"
+    created: "2024-02-16T09:19:27.970059+08:00"
+    description: A Helm lab  chart for Kubernetes
+    digest: 4edf56bc315909474dc85137e5249dbcaae5d20b71ce38ecaa9ef7a0f6f4c3ad
+    name: helm-lab
+    type: application
+    urls:
+    - helm-lab-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2024-02-16T09:19:27.96979+08:00"
     description: A Helm lab  chart for Kubernetes
     digest: ca1e8c605121bdc88e67126de8368a688522d30388fb6bdbfad0672c36b35db7
     name: helm-lab
@@ -13,7 +23,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 0.0.0
-    created: "2024-02-16T09:04:15.937917+08:00"
+    created: "2024-02-16T09:19:27.96917+08:00"
     description: A Helm lab  chart for Kubernetes
     digest: 5197ae61bb54fb8481cb2cbf4d9c9af297b3d411cc8ab5d4bef9855bc3681269
     name: helm-lab
@@ -23,7 +33,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.0.0
-    created: "2024-02-16T09:04:15.937688+08:00"
+    created: "2024-02-16T09:19:27.96887+08:00"
     description: A Helm lab  chart for Kubernetes
     digest: 01f132b281783f1adf53093186317b52eff8783c352b42bbd7972becca5ea8d8
     name: helm-lab
@@ -31,4 +41,4 @@ entries:
     urls:
     - helm-lab-0.1.0.tgz
     version: 0.1.0
-generated: "2024-02-16T09:04:15.937317+08:00"
+generated: "2024-02-16T09:19:27.968485+08:00"
