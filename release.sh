@@ -2,6 +2,8 @@
 
 set -xe
 
+rm -rf charts/*
+
 helm repo index --url "" .
 
 git -P diff index.yaml
