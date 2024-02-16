@@ -55,7 +55,7 @@ spec:
             name: nginx-config
           env:
             - name: SLEEP_TIME
-              value: {{ .Values.SLEEP_TIME }}
+              value: {{ .Values.SLEEP_TIME | quote }}
           command:
             - bash
             - "-c"
