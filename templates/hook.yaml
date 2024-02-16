@@ -63,5 +63,5 @@ spec:
                 sleep 5
                 echo 1.....
                 cat /etc/nginx/nginx.conf
-                
-                for i in {1..$SLEEP_TIME}; do echo $i; sleep 1; done
+                c=$(($SLEEP_TIME))
+                for i in {1..$c}; do echo $i; sleep 1; done
